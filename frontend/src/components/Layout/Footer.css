@@ -1,0 +1,122 @@
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo h1 {
+    font-size: 28px;
+    color: #ffffff;
+  }
+  
+  .footer-nav {
+    margin-bottom: 20px;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-nav ul li {
+    margin: 0;
+  }
+  
+  .footer-nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  .footer-social {
+    margin-bottom: 20px;
+  }
+  
+  .footer-social .social-icon {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social .social-icon.facebook:hover {
+    color: #3b5998;
+  }
+  
+  .footer-social .social-icon.twitter:hover {
+    color: #1da1f2;
+  }
+  
+  .footer-social .social-icon.linkedin:hover {
+    color: #0077b5;
+  }
+  
+  .footer-social .social-icon.instagram:hover {
+    color: #e4405f;
+  }
+  
+  .footer-subscription {
+    margin-bottom: 20px;
+  }
+  
+  .footer-subscription p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .subscription-form {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .subscription-form input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px 0 0 4px;
+    flex: 1;
+  }
+  
+  .subscription-form button {
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 0 4px 4px 0;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscription-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  

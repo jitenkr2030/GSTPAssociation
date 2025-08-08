@@ -1,0 +1,54 @@
+.analytics-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .analytics-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 calc(33% - 20px); /* Adjust width as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .card p {
+    font-size: 22px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .error {
+    text-align: center;
+    font-size: 18px;
+    color: #dc3545;
+  }
+  

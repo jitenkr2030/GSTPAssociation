@@ -1,0 +1,269 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.homepage-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Hero Section */
+.hero-section {
+  background: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 0 0 20px 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary {
+  background-color: #28a745;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary:active, .btn-secondary:active {
+  background-color: #1e7e34;
+}
+
+/* Membership Tiers */
+.membership-tiers {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.membership-tiers h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.tier-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.tier-card {
+  flex: 1;
+  max-width: 360px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tier-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.tier-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 1rem;
+}
+
+.tier-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.tier-card ul li {
+  margin-bottom: 0.5rem;
+}
+
+.tier-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #007BFF;
+  transition: background-color 0.3s;
+}
+
+.tier-card a:hover {
+  background-color: #0056b3;
+}
+
+/* Key Features */
+.key-features {
+  background: #f1f1f1;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.key-features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Additional Services */
+.additional-services {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.additional-services h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.additional-services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.additional-services ul li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #e9ecef;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-carousel {
+  /* Placeholder for carousel styling */
+}
+
+/* Call-to-Action Section */
+.cta-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #007BFF;
+  transition: background-color 0.3s;
+}
+
+.cta-buttons a:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-buttons a {
+    display: block;
+    margin: 0.5rem auto;
+    width: calc(100% - 1rem);
+  }
+
+  .tier-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tier-card {
+    max-width: 100%;
+  }
+}

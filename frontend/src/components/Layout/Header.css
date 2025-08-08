@@ -1,0 +1,36 @@
+/* General header styles */
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
